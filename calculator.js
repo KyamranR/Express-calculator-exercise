@@ -23,3 +23,5 @@ function calculateMode(nums) {
   }
   return parseFloat(mode);
 }
+
+module.exports = { calculateMean, calculateMedian, calculateMode };
