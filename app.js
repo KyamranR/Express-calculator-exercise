@@ -43,6 +43,4 @@ app.use((req, res) => {
   res.status(404).json({ error: "Route not found" });
 });
 
-app.listen(3000, () => {
-  console.log("Server running");
-});
+module.exports = app;
